@@ -1,0 +1,80 @@
+<html>
+<head>
+  <title>Calificaciones de Simulacion</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+  <br>
+	<div class="container">
+    
+    <div id='cabezera'class="row">
+          <div class="col-md-3">
+            <img src="img/koala.jpg" width=50px height=50px >
+            
+          </div>
+
+          <div class="col-md-9">
+            <form class="form-inline" action="">
+                <div class="form-group">
+                  <label for='nombre'>Nombre</label>
+                  <input type='email' class='form-control' id="email">
+                </div>
+                <div class="form-group">
+                  <label for='nombre'>Rut</label>
+                  <input type='email' class='form-control' id="email">
+                </div>
+                <div class="form-group">
+                  <button type='submit' class="btn btn-primary">Buscar</button>
+                </div>
+            </form>
+            <div class="col-md-1">
+              
+              <a href="" id=""></a>
+            </div>
+          </div></div>
+    <div id='navegacion' class="row">
+      <div class="col-md-12">
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <div class="navbar-brand">Calificaciones de Simulacion</div>
+            </div>
+
+            <ul class="nav navbar-nav">
+              <li class='dropdown'> <a class='dropdown-toggle' data-toggle='dropdown'href="#" >Crear Examen</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" onclick='crearFormularioDatos()'>Examen de Camion de Extraccion</a> </li>
+                  <li><a href="#" onclick='crearFormularioDatos()'>Examen de Camion de Cargador Frontal</a> </li>
+                  <li><a href="#" onclick='crearFormularioDatos()'>Examen de Camion de Grua Horquilla</a> </li>
+                </ul>
+               </li>
+              <li> <a href="#">Ingresar Temperatura</a> </li>
+              <li> <a href="#">Ingresar Asistencia</a> </li>
+            </ul>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+    <div id='formulario' class="row">
+      <div class="col-md-12">
+        <div id='mesa' class="thumbnail">
+            
+        </div>
+
+      </div>
+
+    </div>
+   
+  </div>
+
+<script type="text/javascript" src="control.js"></script>
+</body>
+</html>
